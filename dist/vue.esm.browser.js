@@ -8826,7 +8826,7 @@ function parseHTML (html, options) {
 
 const onRE = /^@|^v-on:/;
 const dirRE = /^v-|^@|^:/;
-const forAliasRE = /(.*?)\s+(?:in|of)\s+(.*)/;
+const forAliasRE = /([\s\S]*?)\s+(?:in|of)\s+([\s\S]*)/;
 const forIteratorRE = /\((\{[^}]*\}|[^,]*),([^,]*)(?:,([^,]*))?\)/;
 
 const argRE = /:(.*)$/;
